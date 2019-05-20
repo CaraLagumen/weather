@@ -37,7 +37,8 @@ app.use(express.static(publicDirPath));
 app.get('', (req, res) => { //WHERE TO RENDER, WHAT TO RENDER
     res.render('index', { //WHERE TO RENDER, WHAT TO RENDER
         title: 'Weather',
-        name: 'Cara Lagumen'
+        name: 'Cara Lagumen',
+        github: 'https://github.com/CaraLagumen/cyberbird#cyberbird'
     });
 })
 

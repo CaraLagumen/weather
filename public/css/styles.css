@@ -62,6 +62,10 @@ header a {
     width: 120px;
 }
 
+#weather {
+    height: 160px;
+}
+
 input {
     border: 1px solid #cccccc;
     padding: 8px;
